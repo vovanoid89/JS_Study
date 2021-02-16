@@ -7,17 +7,12 @@ balloons2 /= 4
 console.log(balloons2)
 
 //string operations
-let sillyString = "эЙ, кАК деЛа?"
-let lowerString = sillyString.toLowerCase()
-let firstCharacter = lowerString[0]
-let firstCharacterUpper = firstCharacter.toUpperCase()
-let restOfString = lowerString.slice(1)
-let goodString = firstCharacterUpper + restOfString
-console.log(goodString)
+let str = "эЙ, кАК деЛа?"
+console.log(str[0].toUpperCase() + str.slice(1).toLowerCase())
 
 //age validator
-let age = 11;
-let accompanied = true;
+const age = 11;
+const accompanied = true;
 
 if (accompanied === true || age >= 12) {
     console.log("Welcome")
