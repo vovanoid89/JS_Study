@@ -15,22 +15,22 @@ let moveHead = function () {
     if (direction === 'right') {
         $("#heading").offset({ left: offset });
         offset++;
-        if (offset > 200) {
+        if (offset > 100) {
             offset = 0;
             direction = 'down';
         }
     } else if (direction === 'down') {
         $("#heading").offset({ top: offset });
         offset++;
-        if (offset > 200) {
-            offset = 200;
+        if (offset > 100) {
+            offset = 100;
             direction = 'left';
         }
     } else if (direction === 'left') {
         $("#heading").offset({ left: offset });
         offset--;
         if (offset < 0) {
-            offset = 200;
+            offset = 100;
             direction = 'up';
         }
     } else if (direction === 'up') {
@@ -55,22 +55,22 @@ let moveHead = function () {
     if (direction === 'right') {
         $("#heading").offset({ left: offset });
         offset++;
-        if (offset > 200) {
+        if (offset > 100) {
             offset = 0;
             direction = 'down';
         }
     } else if (direction === 'down') {
         $("#heading").offset({ top: offset });
         offset++;
-        if (offset > 200) {
-            offset = 200;
+        if (offset > 100) {
+            offset = 100;
             direction = 'left';
         }
     } else if (direction === 'left') {
         $("#heading").offset({ left: offset });
         offset--;
         if (offset < 0) {
-            offset = 200;
+            offset = 100;
             direction = 'up';
         }
     } else if (direction === 'up') {
@@ -101,22 +101,22 @@ let moveHead = function () {
     if (direction === 'right') {
         $("#heading").offset({ left: offset });
         offset++;
-        if (offset > 200) {
+        if (offset > 100) {
             offset = 0;
             direction = 'down';
         }
     } else if (direction === 'down') {
         $("#heading").offset({ top: offset });
         offset++;
-        if (offset > 200) {
-            offset = 200;
+        if (offset > 100) {
+            offset = 100;
             direction = 'left';
         }
     } else if (direction === 'left') {
         $("#heading").offset({ left: offset });
         offset--;
         if (offset < 0) {
-            offset = 200;
+            offset = 100;
             direction = 'up';
         }
     } else if (direction === 'up') {
